@@ -1,5 +1,5 @@
 # vue-toggle
- A simple toggle component using `Vue-observable` from Vuejs
+ A simple toggle component using `Vue-observable` to share state across components.
 
  ![Screenshot of vue-toggle](/src/assets/docs/vue-toggle.gif)
 
