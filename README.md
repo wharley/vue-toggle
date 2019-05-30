@@ -1,4 +1,7 @@
 # vue-toggle
+ A simple toggle component using `Vue-observable` from Vuejs
+
+ ![Screenshot of vue-toggle](/src/assets/docs/vue-toggle.gif)
 
 ## Project setup
 ```
