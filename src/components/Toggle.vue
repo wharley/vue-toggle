@@ -1,5 +1,5 @@
 <template>
-  <div class="toggle">
+  <div>
     <input class="toggle-input" type="checkbox">
     <button :class="['toggle-btn', isOn ? 'toggle-btn-on' : 'toggle-btn-off']" @click="setIsOn"></button>
     <slot></slot>
