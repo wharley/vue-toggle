@@ -1,11 +1,19 @@
 {
-  "name": "vue-toggle",
+  "name": "vue-state-toggle",
+  "description": "A simple toggle component using Vue-observable to share state across components.",
   "version": "0.1.0",
-  "private": true,
+  "author": "wharleyornelas <wharleyornelasjs@gmail.com>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
+  },
+  "main": "./dist/vue-state-toggle.common.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wharley/vue-toggle.git"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -20,6 +28,18 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "keywords": [
+    "vue",
+    "Vue.observable",
+    "Toggle"
+  ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
